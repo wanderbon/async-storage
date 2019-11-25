@@ -22,7 +22,7 @@ buildscript {
 // This is a sane limit to protect the user from the app storing too much data in the database.
 // This also protects the database from filling up the disk cache and becoming malformed.
 // If you really need bigger size, please keep in mind the potential consequences.
-long dbSizeInMB = 6L
+long dbSizeInMB = 100L
 
 def newDbSize = rootProject.properties['AsyncStorage_db_size_in_MB']
 
